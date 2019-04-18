@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">MultiplePageAssignment</string>
     <string name="action_settings">Settings</string>
+  <string-array name="foodArray">
+    
+    <item>Samosa</item>
+    <item>Burrito</item>
+    <item>Biryani</item>
+    <item>Coffee</item>
+    <item>Roti</item>
+    <item>Icecream</item>
+    
+  </string-array>
 </resources>

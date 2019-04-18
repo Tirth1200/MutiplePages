@@ -1,71 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 	<TableLayout
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
+		android:layout_height="wrap_content"
 		android:id="@+id/tableLayout1">
 		<TableRow
 			android:id="@+id/tableRow1">
 			<TextView
 				p4:placeholder="true"
 				android:minWidth="30px"
-				android:text="Customer Name"
+				android:text="Welcome"
 				android:minHeight="30px"
 				xmlns:p4="http://xamarin.com/mono/android/designer"
 				android:id="@+id/textView1" />
-			<EditText
-				android:inputType="textPersonName"
-				android:layout_column="1"
-				android:id="@+id/etname" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/etwelcome" />
 		</TableRow>
 		<TableRow
 			android:id="@+id/tableRow2">
-			<TextView
-				p4:placeholder="true"
-				android:minWidth="30px"
-				android:text="Product Name"
-				android:minHeight="30px"
-				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/textView4" />
-			<Spinner
-				android:layout_column="1"
-				android:id="@+id/spinproduct" />
-		</TableRow>
-		<TableRow
-			android:id="@+id/tableRow3">
-			<TextView
-				p4:placeholder="true"
-				android:minWidth="30px"
-				android:minHeight="30px"
-				android:text="Product Price"
-				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/textView7"
-				android:layout_height="18.5dp" />
-			<TextView
-				p4:placeholder="true"
-				android:minWidth="30px"
-				android:minHeight="30px"
-				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/etprice" />
-		</TableRow>
-		<TableRow
-			android:id="@+id/tableRow3">
 			<Button
-				android:text="Add"
+				android:text="Final"
 				android:layout_column="0"
-				android:id="@+id/btadd" />
+				android:id="@+id/btfinal" />
 			<TextView
 				p4:placeholder="true"
 				android:minWidth="30px"
 				android:minHeight="30px"
 				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/textView8" />
+				android:id="@+id/textView5" />
 		</TableRow>
 		<TableRow
 			android:id="@+id/tableRow3">
@@ -73,7 +44,7 @@
 				p4:placeholder="true"
 				android:minWidth="30px"
 				android:minHeight="30px"
-				android:text="Total"
+				android:text="Final Payment"
 				xmlns:p4="http://xamarin.com/mono/android/designer"
 				android:id="@+id/textView7" />
 			<TextView
@@ -81,21 +52,21 @@
 				android:minWidth="30px"
 				android:minHeight="30px"
 				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/ettotal" />
+				android:id="@+id/etfinal" />
 		</TableRow>
 		<TableRow
 			android:id="@+id/tableRow3">
 			<Button
-				android:text="Place Order"
+				android:text="Back"
 				android:layout_column="0"
-				android:id="@+id/btorder" />
+				android:id="@+id/btback" />
 			<TextView
 				p4:placeholder="true"
 				android:minWidth="30px"
 				android:minHeight="30px"
 				xmlns:p4="http://xamarin.com/mono/android/designer"
-				android:id="@+id/textView8" />
+				android:id="@+id/etback" />
 		</TableRow>
 	</TableLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
